@@ -1,0 +1,108 @@
+/* general styles */
+
+body, input {
+    font-family: Arial, Helvetica, sans-serif;
+}
+* {
+    box-sizing: border-box;
+}
+h2, p {
+    padding: 0;
+    margin: 0;
+}
+
+
+#register {
+    width: 800px;
+    height: 450px;
+    margin: 200px auto;
+    /* background-color: lavender; */
+    border-radius: 20px;
+    box-shadow: 5px 5px 10px 5px #ccc;
+}
+
+/* left styles */
+
+#register .left-side {
+    width: 300px;
+    height: 100%;
+    float: left;
+    /* background-color: lavender; */
+    border-radius: 20px 0 0 20px;
+    background: linear-gradient(195deg, rgba(0, 151, 167, 1) 0%, rgba(0, 103, 124, 1) 100%);
+    text-align: center;
+    padding-top: 130px;
+    color: #fff;
+    box-shadow: inset -4px 1px 9px -5px #000;
+}
+#register .left-side p {
+    width: 200px;
+    margin: auto;
+    text-align: center;
+    padding: 15px 0;
+}
+#register .left-side .signin-btn {
+    text-decoration: none;
+    color: #fff;
+    border: 1px solid #fff;
+    padding: 15px 50px;
+    border-radius: 50px;
+    margin-top: 10px;
+    display: inline-block;
+    transition: 0.25s;
+}
+#register .left-side .signin-btn:hover {
+    background-color: #fff;
+    color: #000;
+    transition: 0.25s;
+}
+
+/* right styles */
+
+#register .right-side {
+    width: 500px;
+    height: 100%;
+    float: right;
+    margin-top: 40px;
+    text-align: center;
+    /* background-color: lavender; */
+}
+#register .right-side h2 {
+    color: #0097A7;
+    margin-bottom: 30px;
+}
+#register .right-side .inputs {
+    border: none;
+    background-color: #EEEEEE;
+    width: 70%;
+    margin-top: 10px;
+    padding: 15px 15px 15px 40px;
+    border-radius: 3px;
+}
+#register .right-side .inputs:focus {
+    background-color: #E0E0E0;
+    outline: none;
+}
+#register .right-side .signup-btn {
+    color: #fff;
+    border: 1px solid #0097A7;
+    background-color: #0097A7;
+    padding: 15px 50px;
+    margin-top: 20px;
+    border-radius: 50px;
+    transition: 0.2s;
+}
+#register .right-side .signup-btn:hover {
+    border: 1px solid #0097A7;
+    background-color: #fff;
+    color: black;
+    transition: 0.2s;
+    cursor: pointer;
+}
+#register .right-side .input-icon {
+    width: 20px;
+    position: relative;
+    top: 5px;
+    left: 35px;
+    opacity: 0.5;
+}

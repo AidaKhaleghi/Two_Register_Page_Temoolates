@@ -1,0 +1,92 @@
+body {
+    background: url('../images/ny.jpeg');
+    background-size: cover;
+    font-family: Arial;
+}
+h2, p {
+    padding: 0;
+    margin: 0;
+}
+* {
+    box-sizing: border-box;
+}
+#login {
+    /* background-color: hotpink; */
+    width: 700px;
+    margin: 200px auto;
+    position: relative;
+}
+#login .bg {
+    background-color: rgba(46, 46, 46, 0.8);
+    /* opacity: 0.8; */
+    border-radius: 5px;
+    width: 700px;
+    height: 250px;
+}
+#login .bg .bg-content {
+    /* background-color: hotpink; */
+    width: 40%;
+    height: 100%;
+    float: right;
+    color: #fff;
+    padding: 30px 0 0 20px;
+}
+#login .bg .bg-content h2 {
+    margin: 10px 0;
+}
+#login .bg .bg-content .login-btn {
+    text-decoration: none;
+    color: white;
+    border: 1px solid white;
+    border-radius: 3px;
+    padding: 4px 15px;
+    margin-top: 15px;
+    display: inline-block;
+    transition: 0.25s;
+}
+#login .bg .bg-content .login-btn:hover {
+    background-color: white;
+    color: rgb(46, 46, 46);
+    transition: 0.25s;
+}
+#login .form {
+    background-color: #fff;
+    width: 400px;
+    height: 350px;
+    position: absolute;
+    top: -50px;
+    left: 20px;
+    border-radius: 5px;
+    padding: 30px;
+}
+#login .form h2 {
+    text-transform: uppercase;
+    color: #D84315;
+}
+#login .form .inputs {
+    display: block;
+    margin-top: 20px;
+    border: none;
+    border-bottom: 2px solid #ccc;
+    width: 100%;
+    padding: 10px 10px 10px 0;
+}
+#login .form .inputs:focus {
+    border-bottom: 2px solid rgb(162, 162, 162);
+    outline: none;
+}
+#login .form .submit-btn {
+    background-color: #D84315;
+    border: none;
+    color: white;
+    padding: 8px 16px;
+    margin-top: 30px;
+    float: right;
+    transition: 0.25s;
+    text-transform: uppercase;
+}
+#login .form .submit-btn:hover {
+    background-color: #BF360C;
+    cursor: pointer;
+    transition: 0.25s;
+}
